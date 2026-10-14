@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — StandBy Fold</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+<h1>Privacy Policy</h1>
+<p class="subtitle">StandBy Fold: Always-On Clock &nbsp;|&nbsp; Effective date: October 14, 2026</p>
+
+<p>StandBy Fold ("we", "our", or "the app") turns a Samsung Galaxy Z Fold into a bedside or desk clock: when the
+phone is locked and folded into a tent, the outer screen shows a clock, widgets, photos or what is playing. This
+policy explains what the app reads, what (little) leaves your phone, and why.</p>
+
+<p>In short: <strong>the app has no accounts, no ads and no advertising ID. Everything it reads stays on your
+phone</strong>, except a weather request (if you use weather), anonymous crash reports, and a small set of anonymous
+usage events. Nothing at all is sent while the board is on your screen at night.</p>
+
+<h2>1. What stays on your phone</h2>
+<table>
+<tr><th>Data</th><th>When it is read</th><th>Purpose</th></tr>
+<tr><td>Hinge angle, motion, light and proximity sensors</td><td>While the app is watching (shown by a notification you can pause)</td><td>To notice that the phone has been set down in a tent and to show the board. Sensor readings are processed in memory and never stored or sent.</td></tr>
+<tr><td>Calendar events</td><td>Only if you turn on a calendar view and allow calendar access</td><td>To show your next events on the board.</td></tr>
+<tr><td>Photos (albums you choose, or photos you pick)</td><td>Only if you turn on Photos behind the clock</td><td>To show your photos on the board. Faces are found on the phone only to crop the picture; nothing is uploaded.</td></tr>
+<tr><td>Notifications and what is playing</td><td>Only if you grant notification access</td><td>To show notifications at a glance, Live Updates and Now Playing on the board, and to let you pause or skip a track. Notification contents are never stored or sent.</td></tr>
+<tr><td>List of installed apps with a launcher icon</td><td>When you open the notification settings</td><td>So you can choose which apps may show on the board.</td></tr>
+<tr><td>Your settings</td><td>Always</td><td>Stored in the app's private storage.</td></tr>
+</table>
+
+<h2>2. What leaves your phone</h2>
+<h3>2.1 Weather (optional)</h3>
+<p>If you use weather, the app asks <a href="https://api.met.no/">MET Norway</a>, the Norwegian Meteorological
+Institute, for a forecast. The request carries an approximate location: either the place you typed, or your coarse
+(not precise) location cut to four decimal places, as MET's terms ask. It also carries the app's version and our
+contact address, which MET requires of every client. MET's own privacy terms apply to that request. If you name your
+location automatically, Android's built-in place-name service (part of Google Play services) may receive the same
+approximate coordinates to return the town name. The app never asks for precise or background location.</p>
+
+<h3>2.2 Crash reports</h3>
+<p>If the app crashes, an anonymous crash report is sent through Google's Firebase Crashlytics: the stack trace, the
+app version, the Android version, the device model and a random installation identifier. It contains no name, no
+account, no location, no calendar, photo or notification content.</p>
+
+<h3>2.3 Anonymous usage events</h3>
+<p>The app records a short, fixed list of anonymous events (for example: the app was set up, a setting was changed,
+the board was shown or paused) and sends them to our own server on Cloudflare Workers. Each event carries only its
+name, simple values such as a setting's choice or a counted bucket, the app version, the device model and a random
+installation identifier created on your phone. No events are recorded while the board is showing.</p>
+
+<h2>3. What we do NOT collect</h2>
+<ul>
+<li>No accounts, names, email addresses, phone numbers or contacts.</li>
+<li>No advertising ID, no ads, no advertising or tracking SDKs.</li>
+<li>No precise or background location.</li>
+<li>No photo, calendar or notification content ever leaves your phone.</li>
+<li>No microphone, camera or audio recording.</li>
+<li>We do not sell, rent or share data with anyone for marketing.</li>
+</ul>
+
+<h2>4. Permissions and why</h2>
+<table>
+<tr><th>Permission</th><th>Why</th></tr>
+<tr><td>Display over other apps</td><td>Lets Android start the board when the phone is set down. It is never used to draw over other apps.</td></tr>
+<tr><td>Full-screen notifications</td><td>Lets the board appear on the locked outer screen.</td></tr>
+<tr><td>Foreground service &amp; notifications</td><td>The watching service, with a notification that always lets you pause it.</td></tr>
+<tr><td>Calendar, photos, coarse location, notification access</td><td>Asked only when you turn on the feature that needs it; the app works without them.</td></tr>
+<tr><td>Internet</td><td>Weather, crash reports and the anonymous events above.</td></tr>
+<tr><td>Run at start-up, vibrate</td><td>Resume watching after a restart; play a vibration for apps you allow while the board keeps the phone quiet.</td></tr>
+</table>
+
+<h2>5. Retention and deletion</h2>
+<ul>
+<li>On your phone: everything is deleted when you clear the app's storage or uninstall it.</li>
+<li>Crash reports: kept by Firebase Crashlytics for up to 90 days.</li>
+<li>Anonymous usage events: about 30 days, then purged automatically.</li>
+</ul>
+<p>Because the crash reports and events are anonymous, we cannot link them to you. Uninstalling the app stops all
+collection at once; the remaining records expire on the schedule above. For any question about your data, email
+us.</p>
+
+<h2>6. Children</h2>
+<p>The app is not directed at children under 13 and does not knowingly collect data from them.</p>
+
+<h2>7. Security</h2>
+<p>All network traffic uses HTTPS. Data on the phone is kept in the app's private storage.</p>
+
+<h2>8. Changes to this policy</h2>
+<p>If this policy changes, the new version is posted on this page with a new effective date.</p>
+
+<h2>9. Contact</h2>
+<p><a href="mailto:neko.app.contact@gmail.com">neko.app.contact@gmail.com</a></p>
+
+<div class="footer">&copy; 2026 Neko. All rights reserved. · <a href="../support/">Support</a></div>
+</div>
+</body>
+</html>
